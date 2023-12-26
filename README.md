@@ -1,2 +1,2 @@
 # ruGPT3small-Lab
-Lab3
+Here you can generate annotation and introduction for course research work
