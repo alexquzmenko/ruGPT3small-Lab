@@ -30,7 +30,7 @@ def generate_model_response(text, num_beams=5, max_length=240):
 
 
 def generate_response(text):
-    texts = [generate_model_response(f"{text}. Актуальность:\n "),
+    texts = [generate_model_response(f"{text}. Введение:\n "),
              generate_model_response(f"Курсовая работа по теме: {text.lower()}. Аннотация работы: ", max_length=120)]
     for i in range(len(texts)):
         for symbol in ["\n", "&nbsp;"]:
